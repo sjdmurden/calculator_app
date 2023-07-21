@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+  font-family: "montserrat";
+  font-size: 1.3rem;
+}
+body{
+  background: rgb(18, 54, 59);
+
+}
+
+.signature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  color: rgb(148, 148, 148);
+}
+
+.container{
+  background: rgb(39, 39, 39);
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  width: 400px;
+  border-radius: 9px;
+  border: 0.5rem solid rgb(142, 142, 142);
+}
+
+#display{
+  background: rgb(160, 236, 255);
+  padding: 8px;
+  width: 380px;
+  height: 2rem;
+  border-radius: 9px;
+  margin-bottom: 1rem;
+}
+
+button{
+  border-radius: 9px;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  
+  height: 400px;
+}
+
+
+.clear {
+  background: rgb(35, 248, 166);
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.clear:active{
+  background: rgb(41, 175, 124);
+}
+.operator{
+  background: rgb(252, 174, 73);
+}
+#equals{
+  background: rgb(252, 174, 73);
+}
+#equals:active{
+  background: rgb(123, 71, 4);
+}
+#zero{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.numbers{
+  margin-top: 2rem;
+}
+.number:active{
+  background: rgb(156, 156, 156);
+}
+
+.operators{
+  margin-top: 2rem;
+}
+
+.operator:active{
+  background: rgb(123, 71, 4);
+}
+
+.delete{
+  background: rgb(253, 139, 93);
+}
+.delete:active{
+  background: rgb(161, 89, 60);
+}
+
+.decimal:active{
+  background: rgb(156, 156, 156);
+}
